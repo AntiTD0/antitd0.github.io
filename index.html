@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMG GT Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/AMG.png">
+</head>
+<body>
+    <a href="info.html"><button class="iBTN">Cars info</button></a>
+    <div class="container"> 
+        <h1>Sell Your Mercedes AMG GT</h1>
+        <form id="car-form" enctype="multipart/form-data">
+            <!-- Choose the model -->
+            <div class="form-group">
+                <label for="car-model">Choose AMG GT Model:</label>
+                <select id="car-model" name="car-model" required>
+                    <option value="">Select Model</option>
+                    <option value="AMG GT">AMG GT</option>
+                    <option value="AMG GT S">AMG GT S</option>
+                    <option value="AMG GT C">AMG GT C</option>
+                    <option value="AMG GT Roadster">AMG GT C Roadster</option>
+                    <option value="AMG GT R">AMG GT R</option>
+                    <option value="AMG GT R Pro">AMG GT R Pro</option>
+                    <option value="AMG GT Black Series">AMG GT Black Series</option>
+                    <option value="AMG GT3">AMG GT3 (Track car)</option>
+                </select>
+            </div>
+            
+            <!-- Input price -->
+            <div class="form-group">
+                <label for="car-price">Price (USD):</label>
+                <input type="number" id="car-price" name="car-price" placeholder="Enter the price" required>
+            </div>
+
+            <!-- Description -->
+            <div class="form-group">
+                <label for="car-description">Description:</label>
+                <textarea id="car-description" name="car-description" rows="5" placeholder="Describe your car (e.g., year, mileage, condition)" required></textarea>
+            </div>
+
+            <!-- Upload multiple images -->
+            <div class="form-group">
+                <label for="car-images">Upload Car Images:</label>
+                <input type="file" id="car-images" name="car-images" multiple accept="image/*" required>
+                <div id="image-preview"></div>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit">Post Your Car</button>
+        </form>
+
+        <!-- Section to display submitted posts -->
+        <h2>Listings</h2>
+        <div id="car-listings"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

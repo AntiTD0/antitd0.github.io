@@ -1,0 +1,193 @@
+/* General body and container styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    
+        background-image: url('assets/R..jpg'); /* Path to your background image */
+        background-size: cover; /* Makes sure the image covers the whole background */
+        background-position: center; /* Centers the image */
+        background-attachment: fixed; /* Makes the background stay fixed during scroll */
+        color: #fff; /* Text color set to white for readability on the background */
+    
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Image preview section */
+#image-preview {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#image-preview img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+/* Car listings */
+#car-listings {
+    margin-top: 20px;
+}
+
+.listing {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.listing img {
+    max-width: 150px;
+    max-height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.listing .details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listing .details p {
+    margin: 0 10px 0 0;
+}
+
+
+
+
+.iBTN{
+
+height: 3vw;
+width: 7vw;
+margin-left: 3vw;
+margin-top: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.amg-info {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for readability */
+    color: #000; /* Black text */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.amg-info h2, .amg-info h3 {
+    color: #000000; /* AMG GT yellow color */
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 8vw;
+    font-size: 2.2vw;
+}
+
+.amg-info p {
+    font-size: 1.3vw;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.amg-model {
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+
+.amg-model h4 {
+    font-size: 1.8vw;
+    margin-bottom: 10px;
+    color: #333;
+    margin-top: 6vw;
+}
+
+.amg-model ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.amg-model ul li {
+    padding: 5px 0;
+    font-size: 1.1em;
+    line-height: 2vw;
+}
+
+
+
+.amg-model ul li img {
+   width: 35vw;
+   margin-top: 2vw;
+}
+
